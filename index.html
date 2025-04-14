@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kindness | DPS Nacharam</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/transitions.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/color.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+
+</head>
+
+<body class="bt-home bt-homevthree">
+  <div id="bt-preloader">
+    <div class="bt-preloadericon"></div>
+  </div>
+  <div id="bt-wrapper" class="bt-wrapper bt-haslayout">
+    <header id="bt-header" class="bt-header bt-headervthree bt-haslayout">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="bt-navigationarea">
+            <strong class="bt-logo"><a href="#"><img src="images/logo-dps.png" alt="image description" height="150px"
+                  width="300px"></a></strong>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="bt-homeslidervthree" class="bt-homeslider bt-homeslidervthree bt-haslayout">
+      <div class="pogoSlider-slide" data-transition="fade" data-duration="1500"
+        style="background-image:url(images/background.png);">
+        <div class="mobile-overlay"></div>
+        <div class="bt-slidercontent">
+          <h1 class="pogoSlider-slide-element" data-in="slideDown" data-out="slideDown" data-duration="1500"
+            data-delay="500"><span><span>Hope </span>in Every Hand Extended</span></h1>
+          <div class="bt-description pogoSlider-slide-element" data-in="slideRight" data-out="slideRight"
+            data-duration="1500" data-delay="500">
+            <p>Small gestures can lead to incredible change. When you choose kindness, you plant seeds that will bloom into something beautiful. Every act of kindness helps create a better world for us all.</p>
+          </div>
+          <!-- Trigger Button -->
+          <div class="bt-btnbox pogoSlider-slide-element" data-in="slideUp" data-out="slideUp" data-duration="1500"
+            data-delay="500">
+            <a class="bt-btn bt-btnblack" id="openSelfiePopup"><span>Take Selfie</span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Selfie Popup -->
+    <div id="selfiePopup" class="popup-overlay" style="display: none;">
+      <div class="popup-box">
+        <button class="close-btn" aria-label="Close popup">×</button>
+        <h2 id="popupTitle">Choose an Option</h2>
+
+        <!-- Buttons Row -->
+        <div class="action-row">
+          <div class="option-buttons">
+            <button id="clickSelfieBtn" class="popup-btn">📸 Click Selfie</button>
+            <button id="uploadSelfieBtn" class="popup-btn">📂 Select Selfie</button>
+          </div>
+
+          <!-- This will replace the above when output shown -->
+          <button id="downloadBtn" class="download-btn" style="display:none;">⬇ Download Now</button>
+        </div>
+
+        <!-- Input is hidden & triggered programmatically -->
+        <input type="file" id="uploadInput" accept="image/*" hidden>
+
+        <!-- Video & Snap -->
+        <video id="video" autoplay muted playsinline></video>
+        <button id="snap" class="popup-btn" style="display:none;">📸 Capture</button>
+
+        <!-- Canvas Output -->
+        <div class="canvas-wrapper">
+          <canvas id="canvas" width="600" height="800"></canvas>
+        </div>
+
+      </div>
+    </div>
+    <footer id="bt-footer" class="bt-footer bt-haslayout">
+      <div class="bt-footerbar">
+        <span class="bt-copyright">Designed and Developed by <a href="k-innovative.com">K-innovative
+            Hub</a></span>
+      </div>
+    </footer>
+  </div>
+  <script src="js/vendor/jquery-library.js"></script>
+  <!-- <script src="js/vendor/bootstrap.min.js"></script> -->
+  <script src="js/jquery.pogoslider.js"></script>
+  <script src="js/prettyPhoto.js"></script>
+  <script src="js/themefunction.js"></script>
+
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
